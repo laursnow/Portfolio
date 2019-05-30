@@ -90,7 +90,14 @@ a:hover {
     font-family: 'ABeeZee', sans-serif;
 }
 
-.about, .portfolio, .contact {
+.about {
+    width: 100%;
+    padding: 60px 20% 75px;
+    margin: 50px 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.portfolio, .contact {
     width: 100%;
     padding: 60px 20% 75px;
     margin: 100px 0px;
