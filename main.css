@@ -23,7 +23,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 0px 5px 5px 5px;
     margin: 0px;
     font-family: 'ABeeZee', sans-serif;
@@ -37,7 +37,8 @@ h1 {
     color: #f70170;
     font-size: 65px;
     padding-top: 16px;
-    margin: 0px;
+    margin: 0px 0px 0px 30px;
+    text-shadow: 1px 1px 2px black;
 }
 
 
@@ -46,6 +47,7 @@ h2 {
     color: #f70170;
     font-size: 65px;
     margin: 0px;
+    text-shadow: 1px 1px 2px black;
 }
 
 h3 {
@@ -57,6 +59,7 @@ h3 {
 ul {
     list-style: none;
     margin: 0px;
+    padding: 0px;
 }
 
 .nav li:first-child {
@@ -80,8 +83,6 @@ a:hover {
 }
 
 .container {
-    /* border-bottom: 5px solid rgba(256, 256, 256, 0.95);
-    border-top: 5px solid rgba(256, 256, 256, 0.95); */
     text-align: center;
     color: white;
     font-size: 25px;
@@ -91,16 +92,16 @@ a:hover {
 }
 
 .about {
-    width: 100%;
-    padding: 60px 20% 75px;
-    margin: 50px 0px;
+    width: 90%;
+    padding: 60px 15% 75px;
+    margin: 50px auto;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
 .portfolio, .contact {
-    width: 100%;
-    padding: 60px 20% 75px;
-    margin: 100px 0px;
+    width: 90%;
+    padding: 60px 15% 75px;
+    margin: 100px auto;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -115,4 +116,49 @@ p:last-child {
 
 .b {
     font-weight: bold;
+}
+
+img {
+    width: 75%;
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+
+.tech {
+    font-size: 0.75em;
+    margin: 25px 0px;
+    font-style: italic;
+    display: block;
+}
+
+.tech:before {
+    content: "> ";
+    color: #f70170;
+}
+
+
+.tech:after {
+    content: " <";
+    color: #f70170;
+}
+
+i {
+    font-size: 0.8em;
+}
+
+.portfolio h3 {
+    margin: 30px 0px 15px;
+    font-size: 1.3em;
+}
+
+.portfolio a {
+    font-size: 0.85em;
+}
+
+.portfolio li {
+    display: inline-block;
+    padding-right: 15px;
 }
