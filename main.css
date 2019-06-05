@@ -9,19 +9,6 @@ html {
 }
 
 body {
-  background: url("./images/japan.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: 100%; 
-  -moz-background-size: 100%; 
-  -o-background-size: 100%; 
-  background-size: 100%; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  background-color: #000000;
   margin: 0px;
   padding: 0px;
 }
@@ -95,6 +82,22 @@ a:hover {
   color: #b9da76;
   font-weight: bold;
   text-decoration: none;
+}
+
+.bg-wrapper {
+  background: url("./images/japan.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  background-color: #000000;
 }
 
 .container {
