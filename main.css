@@ -1,226 +1,224 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    min-height: 100%;   
-    margin: 0px;
-    padding: 0px;
- }
-
-body {
-    background: url("./images/japan.jpg");
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  nav {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 0px 5px 5px 5px;
-    margin: 0px;
-    font-family: 'ABeeZee', sans-serif;
-    height: 105px;
-
-  }
-
-
-h1 {
-    font-family: 'Sacramento', cursive;
-    color: #f70170;
-    font-size: 65px;
-    padding-top: 16px;
-    margin: 0px 0px 0px 30px;
-    text-shadow: 1px 1px 2px black;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
+body {
+  background: url("./images/japan.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0px 5px 5px 5px;
+  margin: 0px;
+  font-family: "ABeeZee", sans-serif;
+  height: 105px;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #f70170;
+  font-size: 65px;
+  padding-top: 16px;
+  margin: 0px 0px 0px 30px;
+  text-shadow: 1px 1px 2px black;
+}
 
 h2 {
-    font-family: 'Sacramento', cursive;
-    color: #f70170;
-    font-size: 65px;
-    margin: 0px;
-    text-shadow: 1px 1px 2px black;
+  font-family: "Sacramento", cursive;
+  color: #f70170;
+  font-size: 65px;
+  margin: 0px;
+  text-shadow: 1px 1px 2px black;
 }
 
 h3 {
-    color: #b9da76;
-    font-weight: bold;
-    margin: 0px;
+  color: #b9da76;
+  font-weight: bold;
+  margin: 0px;
 }
 
-h4 a, a:visited, a:active {
-    color: #f80170;
-    font-weight: normal;
-    font-size: 0.85em;
+h4 a,
+a:visited,
+a:active {
+  color: #f80170;
+  font-weight: normal;
+  font-size: 0.85em;
 }
 
 ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .nav li:first-child {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 .nav li {
-    display: inline-block;
-    padding-right: 10px;
+  display: inline-block;
+  padding-right: 10px;
 }
 
-a, a:visited, a:active {
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
+a,
+a:visited,
+a:active {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #b9da76;
-    font-weight: bold;
-    text-decoration: none;
+  color: #b9da76;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .container {
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    position: relative;
-    top: 50px;
-    font-family: 'ABeeZee', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+  font-family: "ABeeZee", sans-serif;
 }
 
 .about {
-    width: 70%;
-    padding: 50px 8% 50px;
-    margin: 50px auto;
-    background-color: rgba(0, 0, 0, 0.9);
+  width: 70%;
+  padding: 50px 8% 50px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
-.portfolio, .contact {
-    width: 70%;
-    padding: 50px 8% 50px;
-    margin: 100px auto;
-    background-color: rgba(0, 0, 0, 0.9);
+.portfolio,
+.contact {
+  width: 70%;
+  padding: 50px 8% 50px;
+  margin: 100px auto;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 p {
-    padding: 15px;
-    margin: 0px;
+  padding: 15px;
+  margin: 0px;
 }
 
 p:last-child {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .b {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 img {
-    width: 75%;
-    display: block;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid white;
+  width: 75%;
+  display: block;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
 }
 
 .tech {
-    font-size: 0.75em;
-    margin: 25px 0px;
-    font-style: italic;
-    display: block;
+  font-size: 0.75em;
+  margin: 25px 0px;
+  font-style: italic;
+  display: block;
 }
 
 .tech:before {
-    content: "> ";
-    color: #f70170;
+  content: "> ";
+  color: #f70170;
 }
 
-
 .tech:after {
-    content: " <";
-    color: #f70170;
+  content: " <";
+  color: #f70170;
 }
 
 i {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .portfolio h3 {
-    margin: 30px 0px 15px;
-    font-size: 1.3em;
+  margin: 30px 0px 15px;
+  font-size: 1.3em;
 }
 
 .portfolio li > a {
-    font-size: 0.85em;
+  font-size: 0.85em;
 }
 
 .portfolio li {
-    display: inline-block;
-    padding-right: 15px;
+  display: inline-block;
+  padding-right: 15px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .about {
+    width: 85%;
+    padding: 50px 5% 65px;
+    margin: 50px auto;
+  }
 
-    .about {
-        width: 85%;
-        padding: 50px 5% 65px;
-        margin: 50px auto;
-    }
-    
-    .portfolio, .contact {
-        width: 85%;
-        padding: 50px 5% 65px;
-        margin: 50px auto;
-    }
+  .portfolio,
+  .contact {
+    width: 85%;
+    padding: 50px 5% 65px;
+    margin: 50px auto;
+  }
 
-    img {
-        width: 90%;
-    }
-
+  img {
+    width: 90%;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 900px) {
-
-nav {
+  nav {
     text-align: center;
     width: 100%;
     height: auto;
     padding-bottom: 20px;
-}
+  }
 
-li:first-child {
+  li:first-child {
     display: block;
-}
+  }
 
-h1, h2 {
+  h1,
+  h2 {
     font-size: 50px;
-}
+  }
 
-.container {
+  .container {
     font-size: 22px;
-}
+  }
 
-a {
+  a {
     font-size: 25px;
-}
+  }
 
-.about {
-    margin-top: 10px 
-}
+  .about {
+    margin-top: 10px;
+  }
 
-#email {
+  #email {
     font-size: 0.8em;
+  }
 }
-
-}
-
