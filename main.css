@@ -6,11 +6,15 @@ html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 body {
   margin: 0px;
   padding: 0px;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 nav {
@@ -98,6 +102,8 @@ a:hover {
   -o-background-size: cover; 
   background-size: cover; 
   background-color: #000000;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 .container {
