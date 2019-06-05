@@ -9,5 +9,8 @@
     "start": "browser-sync start --server --files main.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery-backstretch": "^2.1.17"
+  }
 }
