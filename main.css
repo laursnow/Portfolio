@@ -3,7 +3,6 @@
 }
 
 html {
-  min-height: 100%;
   margin: 0px;
   padding: 0px;
   max-width: 100%;
@@ -18,7 +17,8 @@ body {
   background-size: cover;
   margin: 0px;
   padding: 0px;
-
+  min-width: 100%;
+  min-height: 100%;
 }
 
 nav {
