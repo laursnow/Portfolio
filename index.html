@@ -1,101 +1,189 @@
-    
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Lauren D. Snow</title>
-  <link href="main.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=ABeeZee|Patua+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Lauren D. Snow</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=ABeeZee|Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-        <header>
-              </header>
-<main>
-        <nav>
+  <body>
+    <header></header>
+    <main>
+      <nav id="top">
+        <ul class="nav">
+          <li><h1>Lauren Snow</h1></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li>
+            <a href="https://github.com/laursnow/" target="_blank">GitHub</a>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="about">
+          <h2 id="about">> About <</h2>
+          <h3>Hi, I'm Lauren.</h3>
+          <p>
+            I am a fullstack web developer based in Philadelphia, PA. I enjoy
+            working with
+            <span class="b"
+              >HTML, CSS, Javascript, jQuery, React/Redux, Node.js, Express, and
+              Mongoose.</span
+            >
+          </p>
+          <p>
+            I previously worked as a project manager in the nonprofit & public
+            sector. When I'm not coding, you can find me playing video games,
+            wandering around Philly, searching for a +1 to my next concert, or
+            travelling.
+          </p>
+          <h4><a href="#top">Back to top</a></h4>
+        </div>
 
-                <ul class="nav">
-                  <li><h1>Lauren Snow</h1></li>
-                  <li><a href="/new-articles">About</a></li>
-                  <li><a href="/old-articles">Portfolio</a></li>
-                  <li><a href="https://github.com/laursnow/" target="_blank">Github</a></li>
-                  <li><a href="/contact">Contact</a></li>
-                </ul>
-              </nav>
-    <div class="container">
-      <div class="about">
-      <h2 id="about">> About <</h2>
-      <h3>Hi, I'm Lauren.</h3>
-      <p>I am a fullstack web developer based in Philadelphia, PA.</p>
-      <p>I enjoy working with <span class="b">HTML, CSS, Javascript, jQuery, React/Redux, Node.js, Express, and Mongoose.</span></p>
-      <p>I previously worked as a project manager in the non-profit/public sector.</p>
-      <p>When I'm not coding, you can find me playing video games, wandering around Philly, searching for a +1 to my next concert, or travelling.</p>
-      </div>   
-
-      <div class="portfolio">
-
+        <div class="portfolio">
           <h2 id="portfolio">> Portfolio <</h2>
 
-          
           <h3>PackTracker</h3>
           <ul>
-              <li>
-            <a href="https://packtracker-app.herokuapp.com/"><i class="fas fa-external-link-alt"></i> Live Application </a></li>
             <li>
-            <a href="https://github.com/laursnow/PackTracker-Client"><i class="fas fa-external-link-alt" target="_blank"></i>  Repo (Client) </a></li>
+              <a href="https://packtracker-app.herokuapp.com/"
+                ><i class="fas fa-external-link-alt"></i> Live Application
+              </a>
+            </li>
             <li>
-            <a href="https://github.com/laursnow/PackTracker-Server"><i class="fas fa-external-link-alt" target="_blank"></i>  Repo (Server) </a></li>
-          
+              <a href="https://github.com/laursnow/PackTracker-Client"
+                ><i class="fas fa-external-link-alt" target="_blank"></i> Repo
+                (Client)
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/laursnow/PackTracker-Server"
+                ><i class="fas fa-external-link-alt" target="_blank"></i> Repo
+                (Server)
+              </a>
+            </li>
           </ul>
-            <p>
-              <img src="https://raw.githubusercontent.com/laursnow/PackTracker-Client/master/screenshots/landing.jpg" alt="landing page">
-              <img src="https://raw.githubusercontent.com/laursnow/PackTracker-Client/master/screenshots/db.jpg" alt="dashboard">
-              <img src="https://raw.githubusercontent.com/laursnow/PackTracker-Client/master/screenshots/view.jpg" alt="list interface">
-              <span class="tech">React, Redux, Javascript, CSS, node.js, Express, Passport, Mocha/Chai (server unit testing), Enzyme/Jest (client unit testing), Mongoose, MongoDB</span>
-              PackTracker is a simple web app for tracking trip packing.</p>
+          <p>
+            <img
+              src="https://raw.githubusercontent.com/laursnow/PackTracker-Client/master/screenshots/landing.jpg"
+              alt="landing page"
+            />
+            <img
+              src="https://raw.githubusercontent.com/laursnow/PackTracker-Client/master/screenshots/db.jpg"
+              alt="dashboard"
+            />
+            <img
+              src="https://raw.githubusercontent.com/laursnow/PackTracker-Client/master/screenshots/view.jpg"
+              alt="list interface"
+            />
+            <span class="tech"
+              >React, Redux, Javascript, CSS, node.js, Express, Passport,
+              Mocha/Chai (server unit testing), Enzyme/Jest (client unit
+              testing), Mongoose, MongoDB</span
+            >
+            PackTracker is a simple web app for tracking trip packing. Users can
+            create, modify and save lists.
+          </p>
 
           <h3>Philly Public Transportation Finder</h3>
 
           <ul>
             <li>
-          <a href="https://laursnow.github.io/Philly-Public-Transportation-Finder/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Application </a></li><li>
-          <a href="https://github.com/laursnow/Philly-Public-Transportation-Finder"><i class="fas fa-external-link-alt" target="_blank"></i>  Repo </a></li>
-        
-        </ul>
+              <a
+                href="https://laursnow.github.io/Philly-Public-Transportation-Finder/"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i> Live Application
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/laursnow/Philly-Public-Transportation-Finder"
+                ><i class="fas fa-external-link-alt" target="_blank"></i> Repo
+              </a>
+            </li>
+          </ul>
           <p>
-            <img src="https://raw.githubusercontent.com/laursnow/Philly-Public-Transportation-Finder/master/screenshots/search.png" alt="landing page">
-            <img src="https://raw.githubusercontent.com/laursnow/Philly-Public-Transportation-Finder/master/screenshots/result-details.png" alt="search results">
+            <img
+              src="https://raw.githubusercontent.com/laursnow/Philly-Public-Transportation-Finder/master/screenshots/search.png"
+              alt="landing page"
+            />
+            <img
+              src="https://raw.githubusercontent.com/laursnow/Philly-Public-Transportation-Finder/master/screenshots/result-details.png"
+              alt="search results"
+            />
             <span class="tech">HTML, CSS, Javascript, jQuery, Leaflet.js</span>
-            The Philly Public Transportation Finder application allows the user to enter either a specific address or their current location (via GPS) to find the closest SEPTA public transportation options within a specified radius.</p>
+            The Philly Public Transportation Finder application allows the user
+            to enter either a specific address or their current location (via
+            GPS) to find the closest SEPTA public transportation options within
+            a specified radius.
+          </p>
 
           <h3>Dream Journal</h3>
 
           <ul>
-              <li>
-            <a href="https://dreamjournal-capstone.herokuapp.com/"><i class="fas fa-external-link-alt"></i> Live Application </a></li><li>
-            <a href="https://github.com/laursnow/dream-journal"><i class="fas fa-external-link-alt" target="_blank"></i>  Repo </a></li>
-          
+            <li>
+              <a href="https://dreamjournal-capstone.herokuapp.com/"
+                ><i class="fas fa-external-link-alt"></i> Live Application
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/laursnow/dream-journal"
+                ><i class="fas fa-external-link-alt" target="_blank"></i> Repo
+              </a>
+            </li>
           </ul>
-            <p>
-              <img src="./images/dreamjournal-login.jpg" alt="landing page">
-              <img src="https://github.com/laursnow/server-side-capstone/raw/master/screenshots/update.png" alt="journal interface">
-              <span class="tech">HTML, CSS, Javascript, jQuery, node.js, Express, Passport, Mocha/Chai, Mongoose, MongoDB</span>
-              The Dream Journal application allows users to register and log a description of their dreams. Users can choose to record dates and tag specific entries. Entries can be viewed, modified and deleted from the interface.</p>
-          </div>   
-          <div class="contact">
-              <h2 id="contact">> Contact <</h2>
-              <h3>E-mail</h3>
-              <p>I enjoy working with <span class="b">HTML, CSS, Javascript, jQuery, React/Redux, Node.js, Express, and Mongoose.</span></p>
-              <h3>LinkedIn</h3>
-              <h3>Github</h3>
-              </div>   
-    </div>
+          <p>
+            <img src="./images/dreamjournal-login.jpg" alt="landing page" />
+            <img
+              src="https://github.com/laursnow/server-side-capstone/raw/master/screenshots/update.png"
+              alt="journal interface"
+            />
+            <span class="tech"
+              >HTML, CSS, Javascript, jQuery, node.js, Express, Passport,
+              Mocha/Chai, Mongoose, MongoDB</span>
+            The Dream Journal application allows users to register and log a
+            description of their dreams. Users can choose to record dates and
+            tag specific entries. Entries can be viewed, modified and deleted
+            from the interface.
+          </p>
+          <h4><a href="#top">Back to top</a></h4>
+        </div>
+        <div class="contact">
+          <h2 id="contact">> Contact <</h2>
+          <p>
+            <a href="mailto:snowlaur@gmail.com">E-mail: <span id="email">snowlaur@gmail.com</span></a>
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/lauren-snow-464baa10a/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/laursnow/" target="_blank">GitHub</a>
+          </p>
+          <h4><a href="#top">Back to top</a></h4>
+        </div>
+      </div>
     </main>
-
-  <script src="index.js"></script>
-                    
-</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>

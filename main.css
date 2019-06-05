@@ -56,6 +56,12 @@ h3 {
     margin: 0px;
 }
 
+h4 a, a:visited, a:active {
+    color: #f70170;
+    font-weight: normal;
+    font-size: 0.85em;
+}
+
 ul {
     list-style: none;
     margin: 0px;
@@ -92,15 +98,15 @@ a:hover {
 }
 
 .about {
-    width: 90%;
-    padding: 60px 15% 75px;
+    width: 70%;
+    padding: 50px 8% 50px;
     margin: 50px auto;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
 .portfolio, .contact {
-    width: 90%;
-    padding: 60px 15% 75px;
+    width: 70%;
+    padding: 50px 8% 50px;
     margin: 100px auto;
     background-color: rgba(0, 0, 0, 0.9);
 }
@@ -154,7 +160,7 @@ i {
     font-size: 1.3em;
 }
 
-.portfolio a {
+.portfolio li > a {
     font-size: 0.85em;
 }
 
@@ -162,3 +168,59 @@ i {
     display: inline-block;
     padding-right: 15px;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+
+    .about {
+        width: 85%;
+        padding: 50px 5% 65px;
+        margin: 50px auto;
+    }
+    
+    .portfolio, .contact {
+        width: 85%;
+        padding: 50px 5% 65px;
+        margin: 50px auto;
+    }
+
+    img {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+li:first-child {
+    display: block;
+}
+
+h1, h2 {
+    font-size: 50px;
+}
+
+.container {
+    font-size: 22px;
+}
+
+a {
+    font-size: 25px;
+}
+
+.about {
+    margin-top: 10px 
+}
+
+#email {
+    font-size: 0.8em;
+}
+
+}
+
