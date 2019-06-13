@@ -135,6 +135,10 @@ img {
   border: 1px solid white;
 }
 
+.left {
+  text-align: left;
+}
+
 .tech {
   font-size: 0.75em;
   margin: 25px 0px;
