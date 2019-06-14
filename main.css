@@ -172,7 +172,6 @@ i {
 
 .portfolio-links li {
   border: 1px solid white;
-  width: 150px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
@@ -202,7 +201,7 @@ i {
     padding-bottom: 20px;
   }
 
-  li:first-child {
+  nav li:first-child {
     display: block;
   }
 
