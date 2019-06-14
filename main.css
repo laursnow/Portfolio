@@ -172,6 +172,8 @@ i {
 
 .portfolio-links li {
   border: 1px solid white;
+  width: 200px;
+  padding: 3px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
