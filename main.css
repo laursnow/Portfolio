@@ -169,6 +169,12 @@ i {
   padding-right: 15px;
 }
 
+
+.portfolio-links {
+  border: 1px solid white;
+  width: 60px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
   .about {
     width: 85%;
@@ -219,9 +225,5 @@ i {
 
   #email {
     font-size: 0.8em;
-  }
-
-  .portfolio-links {
-    text-align: left;
   }
 }
