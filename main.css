@@ -170,7 +170,7 @@ i {
 }
 
 
-.portfolio-links {
+.portfolio-links li {
   border: 1px solid white;
   width: 60px;
 }
