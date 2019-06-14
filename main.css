@@ -220,4 +220,8 @@ i {
   #email {
     font-size: 0.8em;
   }
+
+  .portfolio-links {
+    text-align: left;
+  }
 }
