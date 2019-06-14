@@ -16,7 +16,6 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  line-height: 1.5em;
 }
 
 nav {
@@ -117,6 +116,7 @@ a:hover {
 p {
   padding: 15px;
   margin: 0px;
+  line-height: 1.5em;
 }
 
 p:last-child {
